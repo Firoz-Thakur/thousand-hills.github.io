@@ -3,7 +3,7 @@
     overflow: hidden; 
 }
 .post-img img{
-    width: 100%;
+    margin: 100px 30px;
 }
 .blog-post-content{
     /* background-color: rebeccapurple; */
@@ -39,3 +39,10 @@
     align-self: center;
     cursor: pointer;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
