@@ -42,7 +42,7 @@
 }
 
 .nav-left ul li a:hover {
-  color: var(--main-bg-color);
+  color: rgb(78, 255, 78);
   font-weight: bolder;
 }
 
@@ -87,7 +87,14 @@
 
 .home-articles {
   padding: 18px;
-  background-color: rgb(248, 239, 239, 0.5);
+  background-color: rgba(214, 194, 163, 0.5);
+  margin-top: 23px;
+  position: relative;
+}
+.blog-sub-articles
+{
+  padding: 18px;
+  background-color: rgba(150, 240, 230, 0.5);
   margin-top: 23px;
   position: relative;
 }
@@ -137,3 +144,12 @@
 .footer a {
   color: white;
 }
+
+.hovr:hover{
+  background-color:#8ef093;
+}
+
+.heading{
+ color: rgb(213, 63, 63);
+}
+
