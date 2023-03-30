@@ -72,6 +72,5 @@
   margin: 7px 0;
   font-size: 18px;
   font-family: var(--font1);
-  border: 2px solid var(--main-bg-color);
-    border-radius: 5px;
+  border-radius: 5px;
 }

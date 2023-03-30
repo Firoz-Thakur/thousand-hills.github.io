@@ -8,23 +8,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/aboutus.css">
         <link rel="stylesheet" href="css/utils.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2877723232205455"
-     crossorigin="anonymous"></script>
     </head>
     <body>
-        <section>
-            <div class = "image">
-               <img src="img/large.png" width="400px" alt="">
-            </div>
+      <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/large.png" width="100px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/aboutus.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+          <form action="/search.html" method="get">
+              <input class="form-input" type="text" name="query" placeholder="Article Search">
+              <button class="btn">Search</button>
+          </form>
+      </div>
+
+    </nav>
+        
+  
 
             <div class = "content">
                 <h2>About Us</h2>
                 <span><!-- line here --></span>
                 <p> We are a religious tourism enthusiastic Team dedicated to providing personalized and transformative travel experiences for pilgrims and spiritual seekers. Our knowledgeable tour guides offer customized itineraries for visiting holy sites, attending religious festivals, and deepening your faith. We are committed to responsible and respectful travel, and work closely with local religious communities to promote interfaith understanding and cooperation.Thank you for considering our company for your religious travel needs. We look forward to helping you deepen your faith and connect with the divine </p>
-                <ul class = "links">
-                    <li class="btn"><a style="color: #000;" href = "https://wa.me/message/IHV6SFCVVAB4H1">contact</a></li>
-                </ul>
+                <!-- <ul class = "links">
+                  <li class="btn"><a style="color: #000;" href = "https://wa.me/message/IHV6SFCVVAB4H1">contact</a></li>
+                 </ul> -->
                 <ul class = "icons">
                     <li>
                         <i class = "fa fa-twitter"></i>
@@ -39,7 +56,12 @@
                         <i class = "fa fa-pinterest"></i>
                     </li>
                 </ul>
+                
             </div>
-        </section><br><br>
+      <br><br>
+      <div class="footer">
+        <p>Copyright &copy; Thousand-Hills </p>
+        <a href="$">Credits:  Thousand-Hills Team</a>
+    </div>
     </body>
 </html>
