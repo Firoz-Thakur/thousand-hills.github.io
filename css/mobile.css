@@ -79,8 +79,8 @@
     position: relative;
   }
   .m-mobile{
-    margin-left: 43px;
-    margin-right: -1px;
-    padding: 3px;
+    margin: 30px;
+    margin-right: 1px;
+    padding-left:15px;
   }
 }
