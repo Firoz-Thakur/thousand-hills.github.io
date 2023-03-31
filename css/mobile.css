@@ -52,7 +52,7 @@
     padding: 0;
   }
   .post-img {
-    height: auto;
+    height: 230px;
   }
   .adjust-year {
     position: static;
@@ -82,5 +82,11 @@
     margin-left: 20px;
     margin-right: 1px;
     padding-left:15px;
+  }
+   .mx-width-mobile{
+    max-width: fit-content;
+  }
+  .sub-heading{
+    margin-left: 10px;
   }
 }
