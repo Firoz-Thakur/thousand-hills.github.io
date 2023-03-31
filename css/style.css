@@ -152,6 +152,14 @@
 .heading{
  color: rgb(213, 63, 63);
 }
+.home-menu{
+  font-weight: bolder;
+}
+/* .home-menu{
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: rgb(212, 89, 240);
+} */
 
 
 
